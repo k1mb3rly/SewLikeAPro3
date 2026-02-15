@@ -504,22 +504,26 @@ tbody td {
 }
 
 .footer-correction {
-  display: inline-block;
-  margin-top: 0.75rem;
+  position: fixed;
+  bottom: 1.25rem;
+  right: 1.25rem;
+  z-index: 99;
   background: var(--gold);
   color: var(--navy);
   font-family: Georgia, serif;
   font-weight: bold;
   font-size: 0.85rem;
-  padding: 0.45rem 1.1rem;
+  padding: 0.55rem 1.2rem;
   border-radius: 6px;
   text-decoration: none;
-  transition: background-color 0.2s;
+  box-shadow: 0 3px 10px rgba(0,0,0,0.15);
+  transition: background-color 0.2s, box-shadow 0.2s;
 }
 
 .footer-correction:hover {
   background-color: var(--gold-border);
   color: var(--navy);
+  box-shadow: 0 4px 14px rgba(0,0,0,0.2);
 }
 
 /* ===== Checklist ===== */
