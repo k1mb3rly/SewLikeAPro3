@@ -503,6 +503,25 @@ tbody td {
   font-style: italic;
 }
 
+.footer-correction {
+  display: inline-block;
+  margin-top: 0.75rem;
+  background: var(--gold);
+  color: var(--navy);
+  font-family: Georgia, serif;
+  font-weight: bold;
+  font-size: 0.85rem;
+  padding: 0.45rem 1.1rem;
+  border-radius: 6px;
+  text-decoration: none;
+  transition: background-color 0.2s;
+}
+
+.footer-correction:hover {
+  background-color: var(--gold-border);
+  color: var(--navy);
+}
+
 /* ===== Checklist ===== */
 .checklist {
   list-style: none;
